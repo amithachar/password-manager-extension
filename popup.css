@@ -1,0 +1,108 @@
+/* Global fix for Chrome popup layout issues */
+* {
+  box-sizing: border-box;
+}
+
+/* Popup body */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* Main container */
+.container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin: 0 0 12px 0;
+  color: #444;
+  font-size: 16px;
+}
+
+/* Logo (if used) */
+.logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 40px;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 13px;
+}
+
+/* Save button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* Password entry card */
+.entry {
+  background: #f3f4f6;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow: hidden;
+}
+
+/* Buttons inside entry */
+.entry-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+/* Small action buttons */
+.small-btn {
+  font-size: 11px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Show / Hide */
+.show-btn {
+  background: #38bdf8;
+  color: white;
+}
+
+/* Delete */
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
